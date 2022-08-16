@@ -1,4 +1,4 @@
-# Construcción de Interfaces de Usuario | SEGUNDO CUATRIMESTRE 2022
+# Construcción de Interfaces de Usuario | 2° Cuatrimestre 2022
 
 ## Clase 1
 
