@@ -15,6 +15,11 @@ Buenas! Completa los siguientes ejercicios y envía la url al repositorio donde 
 
 5. [3.6 Ejercicio CCS 3](https://unahur.github.io/ciu/#/02-css/3.6-ejercicio)
 
+## Clase 3
+
+6. [3.5 Ejercicio Formulario](https://unahur.github.io/ciu/#/03-formularios/3.5-ejercicio)
+7. [5.2 Ejercicio: Formspree](https://unahur.github.io/ciu/#/03-formularios/5.2-ejercicio)
+
 Por cualquier duda tenes el foro, discord, mails y Google!
 
 Nos vemos!
