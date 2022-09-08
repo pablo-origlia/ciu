@@ -1,0 +1,60 @@
+/* Inicializamos el grid*/
+body {
+  background-color: beige;
+}
+.grid {
+  display: grid;
+}
+/* En cuántas columnas se dividirá nuestro grid*/
+.grid-9 {
+  grid-template-columns: repeat(9, minmax(0, 1fr));
+}
+/* Cuantos espacios (en columnas )tomará nuestro div en el grid */
+.span-9 {
+  grid-column: span 9;
+}
+.span-5 {
+  grid-column: span 5;
+}
+.span-1 {
+  grid-column: span 1;
+  min-width: 50px;
+}
+.status {
+  padding: 2px;
+  margin: 0.2fr;
+  vertical-align: middle;
+  text-align: right;
+  background-color: #4325c4;
+  color: #9a5bee;
+}
+
+.top-header {
+  padding: 20px;
+  /*margin: 0.2fr;*/
+  background-color: #582cdd;
+  color: #fefefe;
+}
+
+.title {
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.content {
+  min-height: 360px;
+  background-color: #fefefe;
+}
+
+.bottom-footer {
+  background-color: #582cdd;
+  color: #fefefe;
+  text-align: center;
+}
+
+img {
+  filter: invert(1);
+  width: auto;
+  height: 50px;
+}

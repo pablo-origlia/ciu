@@ -1,0 +1,7 @@
+estatus
+#4325c4
+#9a5bee
+header
+#582cdd
+body
+#fefefe

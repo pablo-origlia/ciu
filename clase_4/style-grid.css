@@ -1,0 +1,79 @@
+img {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+.container {
+  background-color: #582cdd;
+  display: grid;
+  grid-template-columns: min-content auto 1fr min-content min-content min-content;
+  grid-template-rows: 0.125fr 0.25fr 1fr 0.125fr;
+  grid-auto-rows: 1fr;
+  gap: 20px 4em;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas:
+    "status status status status status status"
+    "menu title title like search extra"
+    "content content content content content content"
+    "footer footer footer footer footer footer";
+}
+
+.status {
+  background-color: #4325c4;
+  color: #9a5bee;
+  font-size: 28px;
+  text-align: right;
+  justify-self: stretch;
+  align-self: center;
+  grid-area: status;
+}
+
+.content {
+  background-color: #fefefe;
+  justify-self: center;
+  align-self: center;
+  grid-area: content;
+}
+
+.footer {
+  color: #fefefe;
+  justify-self: center;
+  align-self: center;
+  grid-area: footer;
+}
+
+.menu {
+  justify-self: center;
+  align-self: center;
+  grid-area: menu;
+}
+
+.extra {
+  justify-self: center;
+  align-self: center;
+  grid-area: extra;
+}
+
+.search {
+  justify-self: center;
+  align-self: center;
+  grid-area: search;
+}
+
+.like {
+  justify-self: center;
+  align-self: center;
+  grid-area: like;
+}
+
+.title {
+  font-size: 62px;
+  color: #fefefe;
+  justify-self: start;
+  align-self: center;
+  grid-area: title;
+}
