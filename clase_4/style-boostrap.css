@@ -1,0 +1,42 @@
+/* Inicializamos el grid*/
+body {
+  background-color: beige;
+}
+
+.status {
+  padding: 2px;
+  margin: 0.2fr;
+  vertical-align: middle;
+  text-align: right;
+  background-color: #4325c4;
+  color: #9a5bee;
+}
+
+.top-header {
+  padding: 20px;
+  background-color: #582cdd;
+  color: #fefefe;
+}
+
+.title {
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.content {
+  min-height: 360px;
+  background-color: #fefefe;
+}
+
+.bottom-footer {
+  background-color: #582cdd;
+  color: #fefefe;
+  text-align: center;
+}
+
+img {
+  filter: invert(1);
+  width: auto;
+  height: 50px;
+}
